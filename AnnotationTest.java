@@ -22,7 +22,7 @@ public class AnnotationTest {
 	   driver.get(baseUrl);
 
    }
-	
+	//Test the Git Hub
    @When("^I enter username as \"(.*)\"$") 
    public void enterUsername(String arg1) {   
       driver.findElement(By.id("email")).sendKeys(arg1); 
